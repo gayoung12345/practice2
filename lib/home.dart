@@ -41,6 +41,7 @@ class Home extends StatefulWidget { // StatefulWidget: 상태 변경 위젯 <-> 
   State<Home> createState() => _HomeState();  // 상태 객체를 생성하는 메소드
 }
 
+
 // Home 위젯 상태 관리 클래스
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();  // ScaffoldState 위젯 상태 참조 전역 키
